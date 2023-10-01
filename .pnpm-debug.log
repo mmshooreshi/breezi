@@ -1,0 +1,148 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {},
+    "prefix": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/mmtishooreshi/Library/pnpm/store/v3",
+    "virtualStoreDir": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/nuxi/3.9.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "nuxi",
+      "rawSpec": "latest"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/nuxi/3.9.0",
+    "requester": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261",
+    "status": "resolved"
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/nuxi/3.9.0",
+    "requester": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261",
+    "status": "found_in_store"
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fsevents/2.3.3",
+    "wanted": {
+      "dependentId": "/nuxi/3.9.0",
+      "name": "fsevents",
+      "rawSpec": "~2.3.3"
+    }
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fsevents/2.3.3",
+    "requester": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261",
+    "status": "resolved"
+  },
+  "9 debug pnpm:package-manifest": {
+    "prefix": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261",
+    "updated": {
+      "dependencies": {
+        "nuxi": "^3.9.0"
+      }
+    }
+  },
+  "10 debug pnpm:package-manifest": {
+    "prefix": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261",
+    "updated": {
+      "dependencies": {
+        "nuxi": "^3.9.0"
+      }
+    }
+  },
+  "11 debug pnpm:stage": {
+    "prefix": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261",
+    "stage": "resolution_done"
+  },
+  "12 debug pnpm:stats": {
+    "prefix": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261",
+    "removed": 0
+  },
+  "13 debug pnpm:stage": {
+    "prefix": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261",
+    "stage": "importing_started"
+  },
+  "14 debug pnpm:stats": {
+    "added": 2,
+    "prefix": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261"
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fsevents/2.3.3",
+    "requester": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261",
+    "status": "found_in_store"
+  },
+  "16 debug pnpm:link": {
+    "target": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261/node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents",
+    "link": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261/node_modules/.pnpm/nuxi@3.9.0/node_modules/fsevents"
+  },
+  "17 debug pnpm:package-import-method": {
+    "method": "copy"
+  },
+  "18 debug pnpm:progress": {
+    "method": "copy",
+    "requester": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261",
+    "status": "imported",
+    "to": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261/node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents"
+  },
+  "19 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "20 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261",
+    "status": "imported",
+    "to": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261/node_modules/.pnpm/nuxi@3.9.0/node_modules/nuxi"
+  },
+  "21 debug pnpm:stage": {
+    "prefix": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261",
+    "stage": "importing_done"
+  },
+  "22 debug pnpm:link": {
+    "target": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261/node_modules/.pnpm/nuxi@3.9.0/node_modules/nuxi",
+    "link": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261/node_modules/nuxi"
+  },
+  "23 debug pnpm:root": {
+    "added": {
+      "dependencyType": "prod",
+      "id": "registry.npmjs.org/nuxi/3.9.0",
+      "name": "nuxi",
+      "realName": "nuxi",
+      "version": "3.9.0"
+    },
+    "prefix": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261"
+  },
+  "24 debug pnpm:link": {
+    "target": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261/node_modules/.pnpm/fsevents@2.3.3/node_modules/fsevents",
+    "link": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261/node_modules/.pnpm/node_modules/fsevents"
+  },
+  "25 debug pnpm:summary": {
+    "prefix": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261"
+  },
+  "26 error pnpm": {
+    "shortMessage": "Command failed with exit code 1: /Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261/node_modules/.bin/nuxi init Breezi",
+    "command": "/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261/node_modules/.bin/nuxi init Breezi",
+    "escapedCommand": "\"/Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261/node_modules/.bin/nuxi\" init Breezi",
+    "exitCode": 1,
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "err": {
+      "name": "pnpm",
+      "message": "Command failed with exit code 1: /Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261/node_modules/.bin/nuxi init Breezi",
+      "stack": "pnpm: Command failed with exit code 1: /Users/mmtishooreshi/Library/pnpm/store/v3/tmp/dlx-22261/node_modules/.bin/nuxi init Breezi\n    at makeError (/Users/mmtishooreshi/.nvm/versions/node/v18.4.0/lib/node_modules/pnpm/dist/pnpm.cjs:22159:17)\n    at handlePromise (/Users/mmtishooreshi/.nvm/versions/node/v18.4.0/lib/node_modules/pnpm/dist/pnpm.cjs:22730:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.handler [as dlx] (/Users/mmtishooreshi/.nvm/versions/node/v18.4.0/lib/node_modules/pnpm/dist/pnpm.cjs:184019:7)\n    at async /Users/mmtishooreshi/.nvm/versions/node/v18.4.0/lib/node_modules/pnpm/dist/pnpm.cjs:192593:21\n    at async run (/Users/mmtishooreshi/.nvm/versions/node/v18.4.0/lib/node_modules/pnpm/dist/pnpm.cjs:192567:34)\n    at async runPnpm (/Users/mmtishooreshi/.nvm/versions/node/v18.4.0/lib/node_modules/pnpm/dist/pnpm.cjs:192785:5)\n    at async /Users/mmtishooreshi/.nvm/versions/node/v18.4.0/lib/node_modules/pnpm/dist/pnpm.cjs:192777:7"
+    }
+  }
+}
