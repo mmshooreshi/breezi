@@ -12,7 +12,7 @@ import { MapControls, Sphere, MeshGlassMaterial, OrbitControls } from '@tresjs/c
 
 
 
-        <Box :args="[1, 1, 1]" color="orange" />
+        <Box :args="[1, 1, 1]" />
         <!-- 
         // Box with a custom material transformations
         <Box ref="boxRef" :args="[1, 1, 1]" :position="[0, 4, 0]">
